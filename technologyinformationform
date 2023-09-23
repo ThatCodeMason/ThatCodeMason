@@ -1,0 +1,106 @@
+<html><head>
+  <title>Basic Information Input/Output System</title>
+ </head>
+ <body>
+     <!-- For "form action='(insert here the actual website/or maybe location to send the info??)'"-->
+  <form action="http://www.example.com/review.php" method="get">
+   <fieldset>
+    <legend>
+    Technology Information:
+    </legend>
+    <label> 
+     PC/Mac Hardware
+        <input type="text" name="PC/Mac Hardware" size="30" maxlength="100">
+    </label>
+    <br>
+    <label>
+     PC/Mac Software
+     <input type="text" name="PC?Mac Software" size="30" maxlength="100">
+    </label>
+    <br>
+  </fieldset>
+  <br>
+  <!-- -->
+  <fieldset>
+   <legend>
+     Programmer's Information:
+   </legend>
+   <p>
+     <label for="Programmer's Information:">
+     Able Programmer:
+     </label>
+     <select name="referrer" id="Able Programmer:">
+      <option value="No.">
+      No.
+      </option>
+
+      <option value="Yes.">
+      Yes.
+      </option>
+      
+      <option value="planning to.">
+      planning to.
+      </option>
+      <option value="Other.">
+      Other.
+      </option>
+      </select>
+   </p>
+   
+   <p>
+   Know atleast one concept of code?
+   </p>
+   <br>
+    <label>
+     <input type="radio" name="rating" value="Yes">
+     Yes
+     </label>
+     
+     <label>
+     <input type="radio" name="rating" value="No">
+     No
+     </label>
+   <p></p>
+   <p>
+    <label for="Programmer's Information:">
+    Write which coding Program(s) you study.
+    </label>
+    <br>
+    <textarea row="4" cols="40" id="Write which coding Program(s) you study.">  
+    </textarea>
+   </p>
+<!--      
+   <p>
+    <label for="Programmer's Information:">
+    What about Technology intrigues you?
+    </label>
+    <br />
+    <textarea row="4" cols="40" id="What about Technology intrigues you?">  
+    </textarea>
+   </p>      
+-->   
+   
+   <p>
+    <label for="Programmer's Information:">
+    Other.
+    </label>
+    <br>
+    <textarea row="4" cols="40" id="other.">  
+    </textarea>
+   </p>      
+      
+   <label>
+       <input type="checkbox" name="subscribe" unchecked="unchecked">
+        Make Data Public (If unchecked it will stay private)
+   </label>
+      <br>
+   <label>
+       <input type="checkbox" name="subscribe" checked="checked">
+        Functional Computer?
+   </label>   
+   <br>
+    <input type="submit" value="Click Submission">
+   </fieldset>
+  </form>   
+       
+        </body></html>
